@@ -15,8 +15,8 @@ const DesignProcess = () => {
     // Data Personas (Phase 1)
     const personas = [
         { 
-            category: "Remaja / Mahasiswa",
-            age: "18 - 22 Tahun",
+            category: "Remaja / Pelajar",
+            age: "13 - 20 Tahun",
             needs: "Ingin harga murah & promo.",
             pain: "Uang saku terbatas, tidak suka ribet.",
             image: imgRemaja,
@@ -24,7 +24,7 @@ const DesignProcess = () => {
         },
         { 
             category: "Dewasa / Pekerja",
-            age: "24 - 40 Tahun",
+            age: "21 - 40 Tahun",
             needs: "Kecepatan & ketepatan waktu.",
             pain: "Sering telat karena driver lama ketemu.",
             image: imgDewasa,
