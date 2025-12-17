@@ -15,14 +15,14 @@ const TestingResults = () => {
         { id: 2, task: "Input Lokasi & Tujuan", note: "Alur jelas, tidak membingungkan", status: "Berhasil" },
         { id: 3, task: "Cek Estimasi Harga & Order", note: "Informasi harga tampil jelas", status: "Berhasil" },
         { id: 4, task: "Menunggu Driver", note: "Loading dan status mudah dimengerti", status: "Berhasil" },
-        { id: 5, task: "Finish Order", note: "Alur linear dan konsisten hingga akhir", status: "Berhasil" },
+        { id: 5, task: "Finish Order", note: "Alur lurus dan konsisten hingga akhir", status: "Berhasil" },
     ];
 
     // Data Improvements
     const improvements = [
         { text: "Menambahkan fitur Notifikasi", icon: <FaBell />, sub: "Agar user tau status terkini" },
-        { text: "Fitur Impor Barang/Makanan", icon: <FaBoxOpen />, sub: "Ekspansi layanan pengiriman" },
-        { text: "Perbaikan Menu Settings", icon: <FaCog />, sub: "Mempermudah akses pengaturan" }
+        { text: "Fitur Pengantaran Barang", icon: <FaBoxOpen />, sub: "Ekspansi layanan pengiriman" },
+        { text: "Perbaikan Menu Pengaturan", icon: <FaCog />, sub: "Mempermudah akses pengaturan" }
     ];
 
     return (
@@ -221,7 +221,7 @@ const TestingResults = () => {
                         padding: '8px 24px', borderRadius: '100px',
                         fontSize: '0.85rem', fontWeight: 'bold', marginBottom: '1.5rem'
                     }}>
-                        <FaLayerGroup /> HIGH-FIDELITY PROTOTYPE
+                        <FaLayerGroup /> HIGH-FIDELITY
                     </div>
                     <h3 style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '1rem', color: '#1e293b' }}>
                         Design Iteration V2
